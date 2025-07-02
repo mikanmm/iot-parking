@@ -1,0 +1,17 @@
+[
+{"type":"header","version":"5.2.1","comment":"Export to JSON plugin for PHPMyAdmin"},
+{"type":"database","name":"rfid_database"},
+{"type":"table","name":"slot","database":"rfid_database","data":
+[
+{"id":"1","total_slot":"2"}
+]
+}
+,{"type":"table","name":"users","database":"rfid_database","data":
+[
+{"id":"1","uid":"6DA3A01F","nama":"Marcel","allowed":"1"},
+{"id":"2","uid":"A385142D","nama":"Maxi","allowed":"1"},
+{"id":"3","uid":"D6FB7700","nama":"Nelson","allowed":"1"},
+{"id":"4","uid":"5D621802","nama":"erik","allowed":"0"}
+]
+}
+]
