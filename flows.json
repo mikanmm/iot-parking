@@ -1,0 +1,755 @@
+[
+    {
+        "id": "2634d65235f05bdf",
+        "type": "tab",
+        "label": "Flow 1",
+        "disabled": false,
+        "info": "",
+        "env": []
+    },
+    {
+        "id": "b5f55946e264ead0",
+        "type": "mqtt-broker",
+        "name": "Listener_RFID_TAG",
+        "broker": "broker.hivemq.com",
+        "port": 1883,
+        "clientid": "",
+        "autoConnect": true,
+        "usetls": false,
+        "protocolVersion": 4,
+        "keepalive": 60,
+        "cleansession": true,
+        "autoUnsubscribe": true,
+        "birthTopic": "parking/rfid/scan",
+        "birthQos": "0",
+        "birthRetain": "true",
+        "birthPayload": "",
+        "birthMsg": {},
+        "closeTopic": "",
+        "closeQos": "0",
+        "closeRetain": "false",
+        "closePayload": "",
+        "closeMsg": {},
+        "willTopic": "",
+        "willQos": "0",
+        "willRetain": "false",
+        "willPayload": "",
+        "willMsg": {},
+        "userProps": "",
+        "sessionExpiry": ""
+    },
+    {
+        "id": "d4a21456b7acf41f",
+        "type": "MySQLdatabase",
+        "name": "Databases",
+        "host": "127.0.0.1",
+        "port": "3306",
+        "db": "rfid_database",
+        "tz": "",
+        "charset": "UTF8"
+    },
+    {
+        "id": "d5cc3236cd21026c",
+        "type": "mqtt-broker",
+        "name": "",
+        "broker": "mqtt-dashboard.com",
+        "port": 1883,
+        "clientid": "",
+        "autoConnect": true,
+        "usetls": false,
+        "protocolVersion": 4,
+        "keepalive": 60,
+        "cleansession": true,
+        "autoUnsubscribe": true,
+        "birthTopic": "",
+        "birthQos": "0",
+        "birthRetain": "false",
+        "birthPayload": "",
+        "birthMsg": {},
+        "closeTopic": "",
+        "closeQos": "0",
+        "closeRetain": "false",
+        "closePayload": "",
+        "closeMsg": {},
+        "willTopic": "",
+        "willQos": "0",
+        "willRetain": "false",
+        "willPayload": "",
+        "willMsg": {},
+        "userProps": "",
+        "sessionExpiry": ""
+    },
+    {
+        "id": "62c2510c1deaa093",
+        "type": "mqtt-broker",
+        "name": "mqtt-dashboard.com",
+        "broker": "",
+        "port": 1883,
+        "clientid": "",
+        "autoConnect": true,
+        "usetls": false,
+        "protocolVersion": 4,
+        "keepalive": 60,
+        "cleansession": true,
+        "autoUnsubscribe": true,
+        "birthTopic": "",
+        "birthQos": "0",
+        "birthRetain": "false",
+        "birthPayload": "",
+        "birthMsg": {},
+        "closeTopic": "",
+        "closeQos": "0",
+        "closeRetain": "false",
+        "closePayload": "",
+        "closeMsg": {},
+        "willTopic": "",
+        "willQos": "0",
+        "willRetain": "false",
+        "willPayload": "",
+        "willMsg": {},
+        "userProps": "",
+        "sessionExpiry": ""
+    },
+    {
+        "id": "d6ca405084d23947",
+        "type": "mqtt-broker",
+        "name": "A",
+        "broker": "mqtt-dashboard.com",
+        "port": 1883,
+        "clientid": "",
+        "autoConnect": true,
+        "usetls": false,
+        "protocolVersion": 4,
+        "keepalive": 60,
+        "cleansession": true,
+        "autoUnsubscribe": true,
+        "birthTopic": "",
+        "birthQos": "0",
+        "birthRetain": "false",
+        "birthPayload": "",
+        "birthMsg": {},
+        "closeTopic": "",
+        "closeQos": "0",
+        "closeRetain": "false",
+        "closePayload": "",
+        "closeMsg": {},
+        "willTopic": "",
+        "willQos": "0",
+        "willRetain": "false",
+        "willPayload": "",
+        "willMsg": {},
+        "userProps": "",
+        "sessionExpiry": ""
+    },
+    {
+        "id": "9a32020a173aee97",
+        "type": "mqtt-broker",
+        "name": "",
+        "broker": "mqtt-dashboard.com",
+        "port": 1883,
+        "clientid": "",
+        "autoConnect": true,
+        "usetls": false,
+        "protocolVersion": 4,
+        "keepalive": 60,
+        "cleansession": true,
+        "autoUnsubscribe": true,
+        "birthTopic": "",
+        "birthQos": "0",
+        "birthRetain": "false",
+        "birthPayload": "",
+        "birthMsg": {},
+        "closeTopic": "",
+        "closeQos": "0",
+        "closeRetain": "false",
+        "closePayload": "",
+        "closeMsg": {},
+        "willTopic": "",
+        "willQos": "0",
+        "willRetain": "false",
+        "willPayload": "",
+        "willMsg": {},
+        "userProps": "",
+        "sessionExpiry": ""
+    },
+    {
+        "id": "42861d3326f65f52",
+        "type": "MySQLdatabase",
+        "name": "",
+        "host": "127.0.0.1",
+        "port": "3306",
+        "db": "",
+        "tz": "",
+        "charset": "UTF8"
+    },
+    {
+        "id": "f37ede3377d9a05e",
+        "type": "MySQLdatabase",
+        "name": "",
+        "host": "127.0.0.1",
+        "port": "3306",
+        "db": "",
+        "tz": "",
+        "charset": "UTF8"
+    },
+    {
+        "id": "ec07c04323c6a734",
+        "type": "MySQLdatabase",
+        "name": "",
+        "host": "127.0.0.1",
+        "port": "3306",
+        "db": "rfid_database",
+        "tz": "",
+        "charset": "UTF8"
+    },
+    {
+        "id": "aaedbf39d6d4718b",
+        "type": "MySQLdatabase",
+        "name": "",
+        "host": "127.0.0.1",
+        "port": "3306",
+        "db": "",
+        "tz": "",
+        "charset": "UTF8"
+    },
+    {
+        "id": "5a1f24423acaba15",
+        "type": "mqtt-broker",
+        "name": "parking/ultrasonic/exit",
+        "broker": "mqtt-dashboard.com",
+        "port": 1883,
+        "clientid": "",
+        "autoConnect": true,
+        "usetls": false,
+        "protocolVersion": 4,
+        "keepalive": 60,
+        "cleansession": true,
+        "autoUnsubscribe": true,
+        "birthTopic": "",
+        "birthQos": "0",
+        "birthRetain": "false",
+        "birthPayload": "",
+        "birthMsg": {},
+        "closeTopic": "",
+        "closeQos": "0",
+        "closeRetain": "false",
+        "closePayload": "",
+        "closeMsg": {},
+        "willTopic": "",
+        "willQos": "0",
+        "willRetain": "false",
+        "willPayload": "",
+        "willMsg": {},
+        "userProps": "",
+        "sessionExpiry": ""
+    },
+    {
+        "id": "38ca7c85711cc3de",
+        "type": "mqtt in",
+        "z": "2634d65235f05bdf",
+        "name": "",
+        "topic": "parking/rfid/scan",
+        "qos": "2",
+        "datatype": "auto-detect",
+        "broker": "b5f55946e264ead0",
+        "nl": false,
+        "rap": true,
+        "rh": 0,
+        "inputs": 0,
+        "x": 80,
+        "y": 540,
+        "wires": [
+            [
+                "bef976f97d7ae25f"
+            ]
+        ]
+    },
+    {
+        "id": "4df5d3b578fbe62f",
+        "type": "function",
+        "z": "2634d65235f05bdf",
+        "name": "sql_query",
+        "func": "// Ambil UID dari 'kantong' yang sudah kita simpan\nvar uid = msg.uid;\n\n// Cek dulu untuk memastikan UID-nya ada\nif (uid) {\n    // Hapus spasi dari UID yang sudah disimpan\n    var cleaned_uid = uid.trim(); \n\n    // Tampilkan di log untuk debugging\n    node.warn(\"Mencari di database untuk UID: '\" + cleaned_uid + \"'\");\n\n    // Buat query SQL menggunakan UID yang sudah bersih\n    msg.topic = \"SELECT allowed FROM users WHERE uid = '\" + cleaned_uid + \"'\";\n} else {\n    // Jika karena suatu alasan UID hilang, hentikan flow\n    node.error(\"UID tidak ditemukan di dalam pesan!\", msg);\n    return null;\n}\n\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1100,
+        "y": 360,
+        "wires": [
+            [
+                "60f45d2be7f428ca"
+            ]
+        ]
+    },
+    {
+        "id": "60f45d2be7f428ca",
+        "type": "mysql",
+        "z": "2634d65235f05bdf",
+        "mydb": "ec07c04323c6a734",
+        "name": "Database_IOT",
+        "x": 1220,
+        "y": 560,
+        "wires": [
+            [
+                "63014d4bed7331f3"
+            ]
+        ],
+        "icon": "node-red/db.svg"
+    },
+    {
+        "id": "9d9cedc81ee40a1d",
+        "type": "switch",
+        "z": "2634d65235f05bdf",
+        "name": "Cek_Database",
+        "property": "status",
+        "propertyType": "msg",
+        "rules": [
+            {
+                "t": "eq",
+                "v": "granted",
+                "vt": "str"
+            },
+            {
+                "t": "else"
+            }
+        ],
+        "checkall": "true",
+        "repair": false,
+        "outputs": 2,
+        "x": 1620,
+        "y": 560,
+        "wires": [
+            [
+                "bdd9656601f534f5"
+            ],
+            [
+                "2d1f5a61d9eb2d5c"
+            ]
+        ]
+    },
+    {
+        "id": "a6d67d0ddae56f7e",
+        "type": "change",
+        "z": "2634d65235f05bdf",
+        "name": "UNLOCK",
+        "rules": [
+            {
+                "t": "set",
+                "p": "topic",
+                "pt": "msg",
+                "to": "parking/servo/control",
+                "tot": "str"
+            },
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "UNLOCK",
+                "tot": "str"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 1840,
+        "y": 240,
+        "wires": [
+            [
+                "73590d14ee4ebef8"
+            ]
+        ]
+    },
+    {
+        "id": "2d1f5a61d9eb2d5c",
+        "type": "change",
+        "z": "2634d65235f05bdf",
+        "name": "DENIED",
+        "rules": [
+            {
+                "t": "set",
+                "p": "topic",
+                "pt": "msg",
+                "to": "parking/device/status",
+                "tot": "str"
+            },
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "DENIED",
+                "tot": "str"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 1900,
+        "y": 660,
+        "wires": [
+            [
+                "0de1c4209a6ec4bd"
+            ]
+        ]
+    },
+    {
+        "id": "73590d14ee4ebef8",
+        "type": "mqtt out",
+        "z": "2634d65235f05bdf",
+        "name": "",
+        "topic": "",
+        "qos": "",
+        "retain": "",
+        "respTopic": "",
+        "contentType": "",
+        "userProps": "",
+        "correl": "",
+        "expiry": "",
+        "broker": "d6ca405084d23947",
+        "x": 1990,
+        "y": 240,
+        "wires": []
+    },
+    {
+        "id": "0de1c4209a6ec4bd",
+        "type": "mqtt out",
+        "z": "2634d65235f05bdf",
+        "name": "",
+        "topic": "",
+        "qos": "",
+        "retain": "",
+        "respTopic": "",
+        "contentType": "",
+        "userProps": "",
+        "correl": "",
+        "expiry": "",
+        "broker": "d6ca405084d23947",
+        "x": 2090,
+        "y": 660,
+        "wires": []
+    },
+    {
+        "id": "63014d4bed7331f3",
+        "type": "function",
+        "z": "2634d65235f05bdf",
+        "name": "cek jawaban",
+        "func": "// Ambil payload (hasil dari query database)\nvar result = msg.payload;\n\n// Tulis ke log untuk debugging, kita bisa lihat persis apa yang diterima\nnode.warn(\"Hasil dari database: \" + JSON.stringify(result));\n\n// Cek jika hasilnya adalah array (daftar) dan tidak kosong\nif (Array.isArray(result) && result.length > 0) {\n\n    // Ambil item pertama dari hasil\n    var data = result[0];\n\n    // Cek jika kolom 'allowed' ada dan nilainya 1 (baik angka maupun teks)\n    if (data.allowed == 1 || data.allowed == \"1\") {\n        // Jika diizinkan, set statusnya\n        msg.status = \"granted\";\n    } else {\n        // Jika 'allowed' nilainya 0 atau lainnya\n        msg.status = \"denied\";\n    }\n\n} else {\n    // Jika hasilnya array kosong (UID tidak ditemukan)\n    msg.status = \"denied\";\n}\n\n// Teruskan pesan dengan status yang baru ke node switch\nreturn msg;\n",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1410,
+        "y": 560,
+        "wires": [
+            [
+                "9d9cedc81ee40a1d"
+            ]
+        ]
+    },
+    {
+        "id": "bef976f97d7ae25f",
+        "type": "function",
+        "z": "2634d65235f05bdf",
+        "name": "Untuk Cek Total slot",
+        "func": "// Simpan UID asli ke properti baru agar tidak hilang\nmsg.uid = msg.payload;\n\n// Sekarang buat query untuk mengecek slot\nmsg.topic = \"SELECT total_slot FROM slot WHERE id = 1\";\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 280,
+        "y": 400,
+        "wires": [
+            [
+                "ca604197195a7c80"
+            ]
+        ]
+    },
+    {
+        "id": "ca604197195a7c80",
+        "type": "mysql",
+        "z": "2634d65235f05bdf",
+        "mydb": "ec07c04323c6a734",
+        "name": "",
+        "x": 520,
+        "y": 400,
+        "wires": [
+            [
+                "08a9eba0b4b9b519"
+            ]
+        ]
+    },
+    {
+        "id": "f33dfaa3ad34c9dc",
+        "type": "switch",
+        "z": "2634d65235f05bdf",
+        "name": "Slot_ada_dan_Slot_Tidak_ada",
+        "property": "slot_status",
+        "propertyType": "msg",
+        "rules": [
+            {
+                "t": "eq",
+                "v": "ada",
+                "vt": "str"
+            },
+            {
+                "t": "else"
+            }
+        ],
+        "checkall": "true",
+        "repair": false,
+        "outputs": 2,
+        "x": 850,
+        "y": 360,
+        "wires": [
+            [
+                "4df5d3b578fbe62f"
+            ],
+            [
+                "635778b0884f8d9a"
+            ]
+        ]
+    },
+    {
+        "id": "08a9eba0b4b9b519",
+        "type": "function",
+        "z": "2634d65235f05bdf",
+        "name": "Cek_Apakah_Ada_Atau_Tidak",
+        "func": "// Ambil hasil dari query database\nvar result = msg.payload;\n\n// Tulis ke log untuk debugging, agar kita tahu apa yang diterima\nnode.warn(\"Hasil dari query slot: \" + JSON.stringify(result));\n\n// Cek dulu apakah database mengembalikan hasil\nif (Array.isArray(result) && result.length > 0) {\n\n    // Ambil data slot dari item pertama\n    var slot_data = result[0];\n\n    // Lakukan pengecekan logika di sini\n    if (slot_data.total_slot > 0) {\n        // Jika slot lebih dari 0, set statusnya 'tersedia'\n        msg.slot_status = \"ada\";\n    } else {\n        // Jika slot adalah 0\n        msg.slot_status = \"full\";\n    }\n\n} else {\n    // Jika database tidak mengembalikan apa-apa (seharusnya tidak terjadi)\n    // Kita anggap saja penuh untuk keamanan\n    msg.slot_status = \"full\";\n}\n\n// Teruskan pesan yang sudah memiliki properti .slot_status baru\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 670,
+        "y": 260,
+        "wires": [
+            [
+                "f33dfaa3ad34c9dc"
+            ]
+        ]
+    },
+    {
+        "id": "d67a2c3c53ac68dc",
+        "type": "mqtt out",
+        "z": "2634d65235f05bdf",
+        "name": "",
+        "topic": "",
+        "qos": "",
+        "retain": "",
+        "respTopic": "",
+        "contentType": "",
+        "userProps": "",
+        "correl": "",
+        "expiry": "",
+        "broker": "d6ca405084d23947",
+        "x": 930,
+        "y": 640,
+        "wires": []
+    },
+    {
+        "id": "635778b0884f8d9a",
+        "type": "change",
+        "z": "2634d65235f05bdf",
+        "name": "Kalau_Full",
+        "rules": [
+            {
+                "t": "set",
+                "p": "topic",
+                "pt": "msg",
+                "to": " parking/device/status",
+                "tot": "str"
+            },
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "full",
+                "tot": "str"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 750,
+        "y": 640,
+        "wires": [
+            [
+                "d67a2c3c53ac68dc"
+            ]
+        ]
+    },
+    {
+        "id": "bdd9656601f534f5",
+        "type": "function",
+        "z": "2634d65235f05bdf",
+        "name": "slot_berkurang",
+        "func": "msg.topic = \"UPDATE slot SET total_slot = total_slot - 1 WHERE id = 1 AND total_slot > 0\";\nreturn msg;\n",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1840,
+        "y": 460,
+        "wires": [
+            [
+                "bf4f020543e7539f"
+            ]
+        ]
+    },
+    {
+        "id": "bf4f020543e7539f",
+        "type": "mysql",
+        "z": "2634d65235f05bdf",
+        "mydb": "ec07c04323c6a734",
+        "name": "",
+        "x": 2060,
+        "y": 460,
+        "wires": [
+            [
+                "a6d67d0ddae56f7e"
+            ]
+        ]
+    },
+    {
+        "id": "d6f987e5b2a1a4d8",
+        "type": "mqtt in",
+        "z": "2634d65235f05bdf",
+        "name": "",
+        "topic": "parking/ultrasonic/exit",
+        "qos": "2",
+        "datatype": "auto-detect",
+        "broker": "5a1f24423acaba15",
+        "nl": false,
+        "rap": true,
+        "rh": 0,
+        "inputs": 0,
+        "x": 240,
+        "y": 760,
+        "wires": [
+            [
+                "8af6fe21c06819a4"
+            ]
+        ]
+    },
+    {
+        "id": "8af6fe21c06819a4",
+        "type": "function",
+        "z": "2634d65235f05bdf",
+        "name": "tambah_slot",
+        "func": "// Perintah untuk MENAMBAH slot\nmsg.topic = \"UPDATE slot SET total_slot = total_slot + 1 WHERE id = 1 AND total_slot < 3\";\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 470,
+        "y": 760,
+        "wires": [
+            [
+                "b6c2ad75fc7b11cf"
+            ]
+        ]
+    },
+    {
+        "id": "b6c2ad75fc7b11cf",
+        "type": "mysql",
+        "z": "2634d65235f05bdf",
+        "mydb": "ec07c04323c6a734",
+        "name": "",
+        "x": 700,
+        "y": 760,
+        "wires": [
+            [
+                "22a630ac419a2f66"
+            ]
+        ]
+    },
+    {
+        "id": "22a630ac419a2f66",
+        "type": "function",
+        "z": "2634d65235f05bdf",
+        "name": "cek_total_slot",
+        "func": "// Setelah menambah, sekarang kita BERTANYA sisa slotnya\nmsg.topic = \"SELECT total_slot FROM slot WHERE id = 1\";\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 960,
+        "y": 760,
+        "wires": [
+            [
+                "6c5b91c069f66b03"
+            ]
+        ]
+    },
+    {
+        "id": "6c5b91c069f66b03",
+        "type": "mysql",
+        "z": "2634d65235f05bdf",
+        "mydb": "ec07c04323c6a734",
+        "name": "",
+        "x": 1180,
+        "y": 760,
+        "wires": [
+            [
+                "b16d17725566f702"
+            ]
+        ]
+    },
+    {
+        "id": "b16d17725566f702",
+        "type": "function",
+        "z": "2634d65235f05bdf",
+        "name": "function 1",
+        "func": "var result = msg.payload;\nif (Array.isArray(result) && result.length > 0) {\n    var sisa_slot = result[0].total_slot;\n    node.warn(\"Mobil keluar terdeteksi. Sisa slot sekarang: \" + sisa_slot);\n} else {\n    node.error(\"Gagal mendapatkan jumlah slot terbaru.\");\n}\nreturn null; // Hentikan alur di sini",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1380,
+        "y": 760,
+        "wires": [
+            [
+                "ebf741d774070532"
+            ]
+        ]
+    },
+    {
+        "id": "ebf741d774070532",
+        "type": "mqtt out",
+        "z": "2634d65235f05bdf",
+        "name": "",
+        "topic": "",
+        "qos": "",
+        "retain": "",
+        "respTopic": "",
+        "contentType": "",
+        "userProps": "",
+        "correl": "",
+        "expiry": "",
+        "broker": "d6ca405084d23947",
+        "x": 1590,
+        "y": 740,
+        "wires": []
+    }
+]
